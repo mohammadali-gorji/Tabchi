@@ -1,14 +1,18 @@
-Instructions:
+# TabChiBot
+
+## Instructions:
 1. Read the list of group IDs from the IDs.txt file.
 2. Check the message history of each group.
 3. Search for and detect content related to programming within these groups.
 4. Send a notification or message to the user if programming-related content is found.
 
-How to run?
+## How to run?
 1. Clone the repository to your local machine.
 2. Edit the IDs.txt file and add target group IDs, one per line.
 3. Install the required dependencies:
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt```
 4. Edit the info.py file to add your API credentials. (Get your API ID and hash from https://my.telegram.org/apps)
 5. Run the script:
+```bash
 python main.py
