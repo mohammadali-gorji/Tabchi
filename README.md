@@ -11,8 +11,10 @@
 2. Edit the IDs.txt file and add target group IDs, one per line.
 3. Install the required dependencies:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+ ```
 4. Edit the info.py file to add your API credentials. (Get your API ID and hash from https://my.telegram.org/apps)
 5. Run the script:
 ```bash
 python main.py
+```
